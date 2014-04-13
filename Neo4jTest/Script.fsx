@@ -2,9 +2,7 @@
 #r @"..\packages\Newtonsoft.Json.5.0.1\lib\net45\Newtonsoft.Json.dll"
 
 open System
-open System.Collections.Generic
 open Neo4jClient
-open Neo4jClient.Cypher
 
 let client = GraphClient(Uri "http://localhost:7474/db/data")
 client.Connect()
